@@ -8,7 +8,7 @@ export REALITY_PORT=${REALITY_PORT:-""}
 export VLESS_WS_PORT=${VLESS_WS_PORT:-""}
 export CF_TUNNEL_TOKEN=${CF_TUNNEL_TOKEN:-""}
 export TUNNEL_WSPORT=${TUNNEL_WSPORT:-"56789"}
-export TUNNEL_DOMAIN=${TUNNEL_DOMAIN:-"fr.tuge.ccwu.cc"}
+export TUNNEL_DOMAIN=${TUNNEL_DOMAIN:-""}
 
 # ================== 强制切换到脚本所在目录 ==================
 cd "$(dirname "$0")"
