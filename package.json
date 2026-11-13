@@ -1,13 +1,15 @@
 {
-  "name": "tuic-hy2-reality",
-  "version": "1.0.0",
-  "description": "TUIC + Hysteria2 + VLESS+WS + Reality·北京时间零点重启",
+  "name": "singbox-tunnel-deploy",
+  "version": "1.2.0",
+  "private": true,
+  "description": "sing-box + Cloudflare Tunnel deployment with custom certificate support",
   "main": "index.js",
-  "type": "commonjs",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "check": "bash -n start.sh && node --check index.js"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "license": "MIT"
 }

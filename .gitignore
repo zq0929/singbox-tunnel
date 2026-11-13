@@ -3,3 +3,8 @@ node_modules/
 singbox_data/
 *.log
 .DS_Store
+
+# 本地配置与证书：绝不提交
+config.env
+certs/**
+!certs/README.txt
